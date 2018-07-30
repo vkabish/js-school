@@ -1,3 +1,3 @@
-### JS School
+### 1. Lesson 1 - Folder tree
 
-# 1. Lesson 1 - Folder tree
+[lesson1](https://vkabish.github.io/js-school/lesson1/)
