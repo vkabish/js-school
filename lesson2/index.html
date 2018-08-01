@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homework 2</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="app">
+    <div class="app-left">
+      <h3 class="app__title">Опросник</h3>
+
+      <form id="formInfo" class="app-left__form">
+        <fieldset class="app-left__fieldset">
+          <legend>
+            Личные данные
+          </legend>
+
+          <p>
+            <label for="surname">Фамилия:</label>
+            <input id="surname" name="surname" type="text">
+          </p>
+          <p>
+            <label for="firstName">Имя:</label>
+            <input id="firstName" name="firstName" type="text">
+          </p>
+          <p>
+            <label for="patronymic">Отчество:</label>
+            <input id="patronymic" name="patronymic" type="text">
+          </p>
+          <p>
+            <label for="birthday">Дата рождение:</label>
+            <input id="birthday" name="birthday" type="date">
+          </p>
+          <p>
+            <label>Пол:</label>
+            <label>
+              <input id="sexMale" type="radio" name="sex" value="Мужчина"> Мужчина 
+            </label> 
+            <label>
+              <input id="sexFemale" type="radio" name="sex" value="Женщина"> Женщина
+            </label>
+          </p>
+          <p>
+            <label for="address">Адрес проживания:</label>
+            <input id="address" name="address" type="text">
+          </p>
+        </fieldset>
+      </form>
+      <form id="formJobs" class="app-left__form">
+        <fieldset class="app-left__fieldset">
+          <legend>Последние места работы</legend>
+
+          <p>
+            <label for="companyName">Название компании:</label>
+            <input id="companyName" name="companyName" type="text" required>
+          </p>
+          <p>
+            <label for="position">Занимаемая позиция:</label>
+            <input id="position" name="position" type="text" required>
+          </p>
+          <p>
+            <label>Период работы:</label>
+          </p>
+          <p>
+            <label for="startPeriod">C:</label>
+            <input id="startPeriod" name="startPeriod" type="date" required>
+
+            <label for="endPeriod">По:</label>
+            <input id="endPeriod" name="endPeriod" type="date" required>
+          </p>
+          <p>
+            <label for="responsibility">За что отвечал:</label>
+            <input id="responsibility" name="responsibility" type="text" required>
+          </p>
+          <button type="submit" class="app-left__button" type="button">
+            Добавить
+          </button>
+        </fieldset>
+      </form>
+      
+    </div>
+    <div class="app-right">
+      <h3 class="app__title">Досье</h3>
+
+      <div class="app-right__info">
+      </div>
+      
+      <h3 class="app__title">Рабочий опыт</h3>
+        
+      <div class="app-right__work-exp">
+        <ol class="app-right__jobs">
+        </ol>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="./inquirer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app__title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.app-left {
+  width: 50%;
+}
+
+.app-left__form {}
+
+.app-left__fieldset {}
+
+.app-left__button {
+  border: 2px solid #333;
+  padding: 12px 15px;
+  background-color: #fff;
+}
+
+.app-right {
+  width: 50%;
+  background: #fff;
+  margin: 0 0 0 50px;
+  padding: 0 50px
+}
+
+.app-right p {
+  font-size: 18px;
+}
+
+.app-right__jobs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app-right__jobs li {
+  border-bottom: 2px solid #333;
+}
+
+.app-right__title {
+  border-bottom: 2px solid #333;
+  font-weight: 700;
+  font-size: 24px;
+}
