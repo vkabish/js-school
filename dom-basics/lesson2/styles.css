@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  user-select: none;
+}
+
+.fs {
+  width: 400px;
+  margin: 0 50px;
+  padding: 15px;
+  background-color: #f7f7f7;
+}
+
+.fs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fs__list.collapsed {
+  height: 0;
+  overflow: hidden;
+}
+
+.fs__list .fs__list {
+  padding-left: 15px;
+}
+
+.fs__list.open {
+  width: auto;
+  height: auto;
+  visibility: visible;
+  margin: auto;
+  clip: auto;
+  overflow: visible;
+}
+
+.fs__list.closed {
+  overflow: hidden;
+  visibility: hidden;
+  margin: -1px -1px;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0 ,0); 
+}
+
+.fs__list li {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.fs__folder,
+.fs__file {
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: 8px 50%;
+  padding-left: 32px;
+  text-decoration: none;
+  display: block;
+}
+
+.fs__folder {
+  background-image: url('./folder.png');
+}
+
+.fs__file {
+  background-image: url('./document.png');
+}
+
+.fs__folder:visited,
+.fs__file:visited {
+  color: #0600ff;
+}
+
+/* .fs__folder:focus,
+.fs__file:focus  */
+
+.fs__folder.selected,
+.fs__file.selected {
+  background-color: #dadada;
+
+  outline: none;
+}

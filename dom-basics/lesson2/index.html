@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DOM Basics Lesson 2</title>
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="fs">
+    <ul class="fs__list">
+      <li>
+        <a class="fs__folder" href="#">Folder 1</a>
+        <ul class="fs__list">
+          <li><a class="fs__file" href="#">File 1.1</a></li>
+          <li><a class="fs__file" href="#">File 1.2</a></li>
+        </ul>
+      </li>
+      <li>
+        <a class="fs__folder" href="#">Folder 2</a>
+        <ul class="fs__list">
+          <li><a class="fs__file" href="#">File 2.1</a></li>
+          <li>
+            <a class="fs__folder" href="#">Folder 2.2</a>
+            <ul class="fs__list">
+              <li><a class="fs__file" href="#">File 2.2.1</a></li>
+              <li><a class="fs__file" href="#">File 2.2.2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="fs__folder" href="#">Folder 3</a>
+        <ul class="fs__list">
+          <li><a class="fs__folder" href="#">Folder 3.1</a></li>
+          <li>
+            <a class="fs__folder" href="#">Folder 3.2</a>
+            <ul class="fs__list">
+              <li>
+                <a class="fs__folder" href="#">Folder 3.2.1</a>
+                <ul class="fs__list">
+                  <li><a class="fs__file" href="#">File 3.2.1</a></li>
+                  <li><a class="fs__file" href="#">File 3.2.2</a>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <script src='./folder-tree.js'></script>
+</body>
+
+</html>
