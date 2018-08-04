@@ -1,7 +1,15 @@
+## DOM Basics
+
 ### 1. Lesson 1 - Folder tree
 
-[lesson1](https://vkabish.github.io/js-school/lesson1/)
+[Lesson 1](https://vkabish.github.io/js-school/dom-basics/lesson1/)
 
-### 2. Lesson 2 - Inquirer
+### 2. Lesson 2 - Folder tree with events
 
-[lesson2](https://vkabish.github.io/js-school/lesson2/)
+[Lesson 2](https://vkabish.github.io/js-school/dom-basics/lesson2/)
+
+## JS Basics
+
+### 2. Lesson 1 - Inquirer
+
+[lesson2](https://vkabish.github.io/js-school/js-basics/lesson1/)
