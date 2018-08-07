@@ -10,6 +10,10 @@
 
 ## JS Basics
 
-### 2. Lesson 1 - Inquirer
+### 1. Lesson 1 - Inquirer
 
-[lesson2](https://vkabish.github.io/js-school/js-basics/lesson1/)
+[Lesson1](https://vkabish.github.io/js-school/js-basics/lesson1/)
+
+### 2. Lesson 2 - Parse CSV File
+
+[Lesson5](https://vkabish.github.io/js-school/js-basics/lesson5/)
