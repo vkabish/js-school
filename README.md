@@ -14,6 +14,6 @@
 
 [Lesson1](https://vkabish.github.io/js-school/js-basics/lesson1/)
 
-### 2. Lesson 2 - Parse CSV File
+### 2. Lesson 5 - Parse CSV File
 
 [Lesson5](https://vkabish.github.io/js-school/js-basics/lesson5/)
