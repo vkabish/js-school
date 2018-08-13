@@ -8,6 +8,10 @@
 
 [Lesson 2](https://vkabish.github.io/js-school/dom-basics/lesson2/)
 
+### 3. Lesson 3 - CRUD
+
+[Lesson 3](https://vkabish.github.io/js-school/dom-basics/lesson3/)
+
 ## JS Basics
 
 ### 1. Lesson 1 - Inquirer
