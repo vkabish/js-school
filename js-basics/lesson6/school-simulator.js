@@ -1,4 +1,4 @@
-console.log('---Avengares Super Heroes Lessons---');
+console.log('---Avengeres Super Heroes Lessons---');
 
   lessons.forEach(({ admin, teacher, group }, index) => { 
     if (admin.canGoToClass()) {
@@ -18,7 +18,7 @@ console.log('---Avengares Super Heroes Lessons---');
     }
   });
 
-console.log('---Avengares Super Heroes Lessons---');
+console.log('---Avengeres Super Heroes Lessons---');
 
 console.log('---Lessons Result---');
 

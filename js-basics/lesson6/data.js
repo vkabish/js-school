@@ -1,13 +1,13 @@
 const admin = new Admin('Furi', 40);
 
-const capitanAmerica = new Teacher('Steve Rodgers, aka Capitan America', 39, 'Power', 2);
+const capitanAmerica = new Teacher('Steve Rodgers, aka Capitan America', 39, 'Willpower', 2);
 const ironMan = new Teacher('Tony Stark, aka Iron Man', 41, 'Techologies', 1);
-const blackWife = new Teacher('Natasha Romanov, aka Black Wife', 38, 'SPY', 1);
+const blackWidow = new Teacher('Natasha Romanov, aka Black Widow', 38, 'SPY', 1);
 
-const teachers = [ironMan, capitanAmerica, blackWife];
+const teachers = [ironMan, capitanAmerica, blackWidow];
 
 const startAssessments = () => ({
-  'Power': [],
+  'Willpower': [],
   'Techologies': [],
   'SPY': []
 });
@@ -44,7 +44,7 @@ const lessons = [
   },
   {
     admin,
-    teacher: blackWife,
+    teacher: blackWidow,
     group
   },
   {
@@ -64,7 +64,7 @@ const lessons = [
   },
   {
     admin,
-    teacher: blackWife,
+    teacher: blackWidow,
     group
   },
   {
@@ -84,7 +84,7 @@ const lessons = [
   },
   {
     admin,
-    teacher: blackWife,
+    teacher: blackWidow,
     group
   },
   {
@@ -119,7 +119,7 @@ const lessons = [
   },
   {
     admin,
-    teacher: blackWife,
+    teacher: blackWidow,
     group
   },
   {
@@ -134,7 +134,7 @@ const lessons = [
   },
   {
     admin,
-    teacher: blackWife,
+    teacher: blackWidow,
     group
   },
   {

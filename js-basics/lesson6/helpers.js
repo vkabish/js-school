@@ -3,14 +3,20 @@ const getStudentsGradation = (lessons) => ({
   EXCELLENT: MAX_ASSESSMENTS * 0.8
 });
 
+const gradationsMap = {
+  EXCELLENT: 'Excellent!',
+  GOOD: 'Good',
+  BAD: 'Bad'
+};
+
 const setStudentGradation = (student, gradations) => {
   const sumOfAssessments = student.getSumOfAssessments();
   
   return (sumOfAssessments >= gradations.EXCELLENT) ?
-    'EXCELLENT' :
+    gradationsMap.EXCELLENT :
     (sumOfAssessments >= gradations.GOOD) ? 
-      'GOOD' :
-      'BAD';
+      gradationsMap.GOOD :
+      gradationsMap.BAD;
 };
 
 const renderAssesments = (assessments) => {

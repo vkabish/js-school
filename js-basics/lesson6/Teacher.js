@@ -1,6 +1,3 @@
-// const MIN = 1;
-// const MAX = 10;
-
 class Teacher extends Person {
  
   constructor(name, age, specialization, scientificWorks = 0, missingClasses) {

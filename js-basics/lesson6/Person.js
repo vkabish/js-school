@@ -30,7 +30,10 @@ class Person {
   }
 
   canGoToClass(bool = true) {
-    if (!bool) return false;
+    if (!bool) {
+      this.passLesson();
+      return false;
+    }
 
     if (!this.canGo()) {
       this.passLesson();
