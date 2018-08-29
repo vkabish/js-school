@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web App Basics Lesson 1</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="tables-flex">
+    <div>
+      <h3>Total Payments</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td id="total-amounts"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <div>
+      <h3>Month Average</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody id="month-average"></tbody>
+      </table>
+    </div>
+
+    <div>
+      <h3>Department Average</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Department</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody id="department-average"></tbody>
+      </table>
+    </div>
+  </div>
+  
+  <script src="./dist/bundle.js"></script>
+</body>
+</html>
