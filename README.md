@@ -21,3 +21,13 @@
 ### 2. Lesson 5 - Parse CSV File
 
 [Lesson5](https://vkabish.github.io/js-school/js-basics/lesson5/)
+
+### 3. Lesson 6 - School Simulator on OOP
+
+[Lesson6](https://vkabish.github.io/js-school/js-basics/lesson6/)
+
+## WEB APP Basics
+
+### 1. Lesson 1 - Parse CSV File with webpack bundle
+
+[Lesson1](https://vkabish.github.io/js-school/web-app-basics/lesson1/)
