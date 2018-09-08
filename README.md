@@ -26,6 +26,10 @@
 
 [Lesson6](https://vkabish.github.io/js-school/js-basics/lesson6/)
 
+### 4. Lesson 7 - Github user with fetch()
+
+[Lesson7](https://vkabish.github.io/js-school/js-basics/lesson7/)
+
 ## WEB APP Basics
 
 ### 1. Lesson 1 - Parse CSV File with webpack bundle
