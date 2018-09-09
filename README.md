@@ -41,4 +41,8 @@
 
 ### 1. Lesson 1 - Github User Profile App
 
-[Github User Profile App](https://vkabish.github.io/js-school/react-redux/github-user-profile/)
+[Github User Profile App](https://vkabish.github.io/js-school/react-redux/github-user-profile/build/)
+
+### 2. Lesson 2 - Github Users List App
+
+[Github Users List App](https://vkabish.github.io/js-school/react-redux/github-users-list/build/)
