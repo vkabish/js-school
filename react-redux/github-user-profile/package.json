@@ -15,7 +15,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://vkabish.github.io/js-school/react-redux/github-user-profile",
+  "homepage": "http://vkabish.github.io/js-school/react-redux/github-user-profile/build",
   "devDependencies": {
     "gh-pages": "^1.2.0"
   }
