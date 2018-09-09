@@ -35,3 +35,10 @@
 ### 1. Lesson 1 - Parse CSV File with webpack bundle
 
 [Lesson1](https://vkabish.github.io/js-school/web-app-basics/lesson1/)
+
+
+## React-Redux
+
+### 1. Lesson 1 - Github User Profile App
+
+[Github User Profile App](https://vkabish.github.io/js-school/react-redux/github-user-profile/)
