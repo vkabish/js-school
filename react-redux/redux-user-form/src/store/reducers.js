@@ -1,17 +1,32 @@
 import { combineReducers } from 'redux';
+import { update } from './actions';
 
-const changeData = (state = {}, action) => {
-  switch (action.type) {
-    case 'CHANGE_DATA':
-      return {
-        ...state,
-        [action.payload.key]: action.payload.value
-      };
-    default:
-      return state;
-  }
+export const mergePayload = (state, { payload }) => ({
+  ...state, ...payload,
+});
+
+const callReducer = (reducer, state, action) => (
+  typeof reducer === 'function'
+    ? reducer(state, action)
+    : state
+);
+
+export const createReducer = (initialState, reducers) => (
+  (state = initialState, action) => callReducer(
+    reducers[action.type], state, action
+  )
+);
+
+const initialState = {
+  name: 'Vladimir',
+  age: 23,
+  isStudent: true,
 };
 
+const userForm = createReducer(initialState, {
+  [update.type]: mergePayload
+});
+
 export const userFormApp = combineReducers({
-  name: changeData
+  userForm
 });

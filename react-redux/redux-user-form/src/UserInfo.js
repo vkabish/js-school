@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 const UserInfo = ({ name, age, isStudent }) => (
   <div className="row">
@@ -14,4 +15,6 @@ const UserInfo = ({ name, age, isStudent }) => (
   </div>
 );
 
-export default UserInfo;
+const getProps = ({ userForm}) => ({ ...userForm });
+
+export default connect(getProps)(UserInfo);

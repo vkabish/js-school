@@ -1,4 +1,7 @@
 import React from 'react';
+import { connect } from 'react-redux';
+
+import { changeName, changeAge, changeIsStudent } from './store/actions';
 
 const UserForm = ({ name, age, isStudent, onNameChanged, onAgeChanged, onIsStudentChanged }) => (
   <form>
@@ -10,19 +13,19 @@ const UserForm = ({ name, age, isStudent, onNameChanged, onAgeChanged, onIsStude
           type="text"
           className="form-control"
           value={name}
-          onChange={onNameChanged}
+          onChange={(evt) => onNameChanged(evt.target.value)}
         />
       </div>
     </div>
     <div className="form-group row">
-      <label className="col-sm-2 col-form-label" htmlFor="age">User Name</label>
+      <label className="col-sm-2 col-form-label" htmlFor="age">User Age</label>
       <div className="col-sm-3">
         <input
           id="age"
           type="number"
           className="form-control"
           value={age}
-          onChange={onAgeChanged}
+          onChange={(evt) => onAgeChanged(evt.target.value)}
         />
       </div>
     </div>
@@ -34,8 +37,8 @@ const UserForm = ({ name, age, isStudent, onNameChanged, onAgeChanged, onIsStude
             id="is-student"
             type="checkbox"
             className="form-check-input"
-            value={isStudent}
-            onChange={onIsStudentChanged}
+            checked={isStudent}
+            onChange={(evt) => onIsStudentChanged(evt.target.checked)}
           />
           <label htmlFor="is-student" className="form-check-label">Student</label>
         </div>
@@ -44,4 +47,12 @@ const UserForm = ({ name, age, isStudent, onNameChanged, onAgeChanged, onIsStude
   </form>
 );
 
-export default UserForm;
+const getProps = ({ userForm }) => ({ ...userForm });
+
+const handlers = ({
+  onNameChanged: changeName,
+  onAgeChanged: changeAge,
+  onIsStudentChanged: changeIsStudent
+});
+
+export default connect(getProps, handlers)(UserForm);
