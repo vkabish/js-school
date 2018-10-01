@@ -50,3 +50,7 @@
 ### 3. Lesson 3 - Github User Profile Manager App
 
 [Github User Profile Manager App](https://vkabish.github.io/js-school/react-redux/gh-user-manager/build/)
+
+### 4. Lesson 4 - Redux User Form - Redux Basics
+
+[Redux User Form](https://vkabish.github.io/js-school/react-redux/redux-user-form/build/)
