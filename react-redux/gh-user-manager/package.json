@@ -25,5 +25,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://vkabish.github.io/js-school/react-redux/gh-user-manager/build"
+  "homepage": "http://vkabish.github.io/js-school"
 }
