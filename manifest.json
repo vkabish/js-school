@@ -1,6 +1,6 @@
 {
-  "short_name": "Github User Profile Manager",
-  "name": "Github User Profile Manager",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",

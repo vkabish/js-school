@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,gBACE,gBACA,iBAAmB","file":"static/css/main.c8fe714d.css","sourcesContent":[".user-thumbnail {\n  max-width: 100px;\n  margin-right: 20px;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}
