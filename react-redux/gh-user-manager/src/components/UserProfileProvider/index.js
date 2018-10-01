@@ -53,7 +53,7 @@ class UserProfileProvider extends React.Component {
     this.setState({ loading: false });
   }
 
-  updateCurrentUserData = (data, token = '1efbc009b6ea8f74222294950cff6a5c23dbcec5') => {
+  updateCurrentUserData = (data, token) => {
     pushDataToServer(`/user`, data, token)
   }
 
