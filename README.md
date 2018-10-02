@@ -54,3 +54,7 @@
 ### 4. Lesson 4 - Redux User Form - Redux Basics
 
 [Redux User Form](https://vkabish.github.io/js-school/react-redux/redux-user-form/build/)
+
+### 5. Lesson 5 - Redux Todolist - Redux Basics
+
+[Redux Todolist](https://vkabish.github.io/js-school/react-redux/redux-todolist/build/)
